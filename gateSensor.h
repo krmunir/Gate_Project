@@ -19,9 +19,8 @@ public:
 	gateSensor(int InPin) : m_inputPin {InPin}
 	{}
 
-	 
-
-
+	bool isClosed();
+	bool isOpen();
 
 };
 
