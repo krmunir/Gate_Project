@@ -17,11 +17,9 @@ public:
 	distanceSensor(int pinNo) :m_pinNo{ pinNo }
 	{}
 
-
-
-
-
-
+	bool isOpen();
+	bool isClosed();
+	int percent_open();
 
 };
 

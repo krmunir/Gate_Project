@@ -108,13 +108,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="distanceSensor.h" />
-    <ClInclude Include="gateSensor.h" />
+    <ClInclude Include="gateControl.h" />
+    <ClInclude Include="openSensor.h" />
     <ClInclude Include="led.h" />
     <ClInclude Include="__vm\.Gate_Project.vsarduino.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="distanceSensor.cpp" />
-    <ClCompile Include="gateSensor.cpp" />
+    <ClCompile Include="gateControl.cpp" />
+    <ClCompile Include="openSensor.cpp" />
     <ClCompile Include="led.cpp" />
   </ItemGroup>
   <PropertyGroup>

@@ -1,4 +1,4 @@
-// gateSensor.h
+// openSensor.h
 
 #ifndef _GATESENSOR_h
 #define _GATESENSOR_h
@@ -9,14 +9,14 @@
 	#include "WProgram.h"
 #endif
 
-class gateSensor {
+class openSensor {
 private:
 	int m_inputPin = 0;
 
 
 
 public:
-	gateSensor(int InPin) : m_inputPin {InPin}
+	openSensor(int InPin) : m_inputPin {InPin}
 	{}
 
 	bool isClosed();

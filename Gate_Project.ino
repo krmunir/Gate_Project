@@ -6,9 +6,10 @@
     Author:     COHDA\kmunir
 */
 
+#include "gateControl.h"
 #include "distanceSensor.h"
 #include "led.h"
-#include "gateSensor.h"
+#include "openSensor.h"
 
 
 

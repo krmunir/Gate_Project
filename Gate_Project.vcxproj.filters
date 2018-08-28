@@ -21,24 +21,30 @@
     <ClInclude Include="__vm\.Gate_Project.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="gateSensor.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="led.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="distanceSensor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="openSensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gateControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="gateSensor.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="led.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="distanceSensor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openSensor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gateControl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
