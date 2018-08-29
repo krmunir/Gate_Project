@@ -25,10 +25,9 @@
 //pin assignments - Inputs
 #define SWING_GATE_East_PIN 99
 #define SWING_GATE_South_PIN 99
-//#define SLIDING_GATE_ULTRASONIC_SENSOR_PIN 99 //not required as US sensor connected via serial
+
 
 // The setup() function runs once each time the micro-controller starts
-
 void setup()
 {
 	//setup sliding gate
@@ -44,6 +43,7 @@ void setup()
 	led swingGateSouthLED(RGB_LED_South_R_PIN, RGB_LED_South_G_PIN, RGB_LED_South_B_PIN);
 
 }
+
 
 // Add the main program code into the continuous loop() function
 void loop()
