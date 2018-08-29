@@ -5,7 +5,7 @@
 #include "gateControl.h"
 
 
-void gateControl::activate() {
+void gateControl::m_toggleInput() {
 
 }
 
@@ -21,3 +21,6 @@ void gateControl::halfOpen() {
 
 }
 
+void gateControl::stop() {
+
+}

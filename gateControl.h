@@ -12,7 +12,7 @@
 class gateControl {
 private:
 	int m_outputPinNo = 0;
-	void activate();
+	void m_toggleInput();
 
 public:
 	gateControl(int outputPinNo) :m_outputPinNo{ outputPinNo }
@@ -21,6 +21,7 @@ public:
 	void fullOpen();
 	void fullClose();
 	void halfOpen();
+	void stop(); //is this required??
 
 
 };
