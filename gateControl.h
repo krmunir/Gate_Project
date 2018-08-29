@@ -12,12 +12,15 @@
 class gateControl {
 private:
 	int m_outputPinNo = 0;
+	void activate();
 
 public:
 	gateControl(int outputPinNo) :m_outputPinNo{ outputPinNo }
 	{}
 
-	void activate();
+	void fullOpen();
+	void fullClose();
+	void halfOpen();
 
 
 };

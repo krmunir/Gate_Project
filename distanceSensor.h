@@ -14,11 +14,14 @@ private:
 	int m_pinNo = 0;
 
 public:
-	distanceSensor(int pinNo) :m_pinNo{ pinNo }
+	distanceSensor(int pinNo) : m_pinNo{ pinNo }
 	{}
 
 	bool isOpen();
 	bool isClosed();
+	bool isOpening();
+	bool isClosing();
+	bool isHalfOpen();
 	int percent_open();
 
 };

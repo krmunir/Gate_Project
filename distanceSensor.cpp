@@ -16,3 +16,14 @@ int distanceSensor::percent_open() {
 
 }
 
+bool distanceSensor::isOpening() {
+
+}
+
+bool distanceSensor::isClosing() {
+
+}
+
+bool distanceSensor::isHalfOpen() {
+	
+}

@@ -5,6 +5,19 @@
 #include "gateControl.h"
 
 
-void activate() {
+void gateControl::activate() {
 
 }
+
+void gateControl::fullOpen() {
+
+}
+
+void gateControl::fullClose() {
+
+}
+
+void gateControl::halfOpen() {
+
+}
+

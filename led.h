@@ -9,13 +9,13 @@
 #include "WProgram.h"
 #endif
 
-enum Colour {
+enum class Colour {
 	RED,
 	GREEN,
 	BLUE
 };
 
-enum BlinkRate {
+enum class BlinkRate {
 	FAST,
 	SLOW
 };
