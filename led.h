@@ -22,13 +22,18 @@ enum class BlinkRate {
 
 class led {
 private:
-	int m_outputPin1 = 0;
-	int m_outputPin2 = 0;
-	int m_outputPin3 = 0;
+	int m_redPin = 0;
+	int m_greenPin = 0;
+	int m_bluePin = 0;
 
 public:
-	led(int outputPin1, int outputPin2, int outputPin3) :m_outputPin1{ outputPin1 }, m_outputPin2{ outputPin2 }, m_outputPin3{ outputPin3 }
-	{}
+	led(int redPin, int greenPin, int bluePin) :m_redPin{ redPin }, m_greenPin{ greenPin }, m_bluePin{ bluePin }
+	{
+		//setup RGB pins as output
+		pinMode(m_redPin, OUTPUT);
+		pinMode(m_greenPin, OUTPUT);
+		pinMode(m_bluePin, OUTPUT);
+	}
 
 	void turnOn(Colour col);
 	void turnOff();

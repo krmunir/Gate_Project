@@ -16,7 +16,9 @@ private:
 
 public:
 	gateControl(int outputPinNo) :m_outputPinNo{ outputPinNo }
-	{}
+	{
+		pinMode(m_outputPinNo, OUTPUT);
+	}
 
 	void fullOpen();
 	void fullClose();

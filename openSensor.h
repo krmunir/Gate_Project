@@ -17,7 +17,9 @@ private:
 
 public:
 	openSensor(int InPin) : m_inputPin {InPin}
-	{}
+	{
+		pinMode(m_inputPin, INPUT);
+	}
 
 	bool isClosed();
 	bool isOpen();

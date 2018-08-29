@@ -11,11 +11,11 @@
 
 class distanceSensor {
 private:
-	int m_pinNo = 0;
 
 public:
-	distanceSensor(int pinNo) : m_pinNo{ pinNo }
-	{}
+	distanceSensor() {
+		Serial.begin(9600);
+	}
 
 	bool isOpen();
 	bool isClosed();
