@@ -4,8 +4,11 @@
 
 #include "gateControl.h"
 
+void gateControl::m_gateButtonPress() {
 
-void gateControl::m_toggleInput() {
+}
+
+void gateControl::m_changeDirection() {
 
 }
 

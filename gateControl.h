@@ -12,7 +12,8 @@
 class gateControl {
 private:
 	int m_outputPinNo = 0;
-	void m_toggleInput();
+	void m_gateButtonPress();
+	void m_changeDirection();
 
 public:
 	gateControl(int outputPinNo) :m_outputPinNo{ outputPinNo }
