@@ -9,7 +9,15 @@
 #include "WProgram.h"
 #endif
 
+enum class LEDmode {
+	LED_ON,
+	LED_OFF,
+	SINGLE_COL_BLINK,
+	DUAL_COL_BLINK
+};
+
 enum class Colour {
+	NONE,
 	RED,
 	GREEN,
 	BLUE
@@ -17,7 +25,8 @@ enum class Colour {
 
 enum class BlinkRate {
 	FAST,
-	SLOW
+	SLOW,
+	NONE
 };
 
 class led {
@@ -25,6 +34,7 @@ private:
 	int m_redPin = 0;
 	int m_greenPin = 0;
 	int m_bluePin = 0;
+	void blinkStateMachine(LEDmode ledMode, BlinkRate blinkRate, Colour col1, Colour col2);
 
 public:
 	led(int redPin, int greenPin, int bluePin) :m_redPin{ redPin }, m_greenPin{ greenPin }, m_bluePin{ bluePin }
