@@ -20,7 +20,7 @@ void led::blink(Colour col1, Colour col2, BlinkRate rate) {
 	blinkStateMachine(LEDmode::DUAL_COL_BLINK, rate, col1, col2);
 }
 
-void blinkStateMachine(LEDmode ledMode, BlinkRate blinkRate, Colour col1, Colour col2){
+void led::blinkStateMachine(LEDmode ledMode, BlinkRate blinkRate, Colour col1, Colour col2){
 
 	switch (ledMode)
 	{
@@ -28,10 +28,13 @@ void blinkStateMachine(LEDmode ledMode, BlinkRate blinkRate, Colour col1, Colour
 
 		break;
 	case LEDmode::LED_OFF:
+
 		break;
 	case LEDmode::SINGLE_COL_BLINK:
+
 		break;
 	case LEDmode::DUAL_COL_BLINK:
+
 		break;
 	default:
 		break;
