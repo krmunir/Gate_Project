@@ -7,6 +7,7 @@
 */
 
 //#includes
+#include <Blynk.h>
 #include "gateControl.h"
 #include "distanceSensor.h"
 #include "led.h"
