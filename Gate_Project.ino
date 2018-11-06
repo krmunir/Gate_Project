@@ -21,7 +21,7 @@
 #define RGB_LED_South_R_PIN 99
 #define RGB_LED_South_G_PIN 99
 #define RGB_LED_South_B_PIN 99
-#define BUZZER 99
+#define BUZZER_PIN 99
 
 //pin assignments - Inputs
 #define SWING_GATE_East_PIN 99

@@ -12,7 +12,8 @@
 class gateControl {
 private:
 	int m_outputPinNo = 0;
-	void m_pulseGateController(); //command to pulse gate controller (via a relay); 
+	void m_gateButtonPress();
+	void m_changeDirection();
 
 public:
 	gateControl(int outputPinNo) :m_outputPinNo{ outputPinNo }
@@ -24,7 +25,6 @@ public:
 	void fullClose();
 	void halfOpen();
 	void stop(); //is this required??
-	void StateMachine(); //main state machine
 
 
 };

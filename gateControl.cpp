@@ -4,8 +4,11 @@
 
 #include "gateControl.h"
 
+void gateControl::m_gateButtonPress() {
 
-void gateControl::m_pulseGateController() {
+}
+
+void gateControl::m_changeDirection() {
 
 }
 
@@ -22,9 +25,5 @@ void gateControl::halfOpen() {
 }
 
 void gateControl::stop() {
-
-}
-
-void gateControl::StateMachine() {
 
 }
